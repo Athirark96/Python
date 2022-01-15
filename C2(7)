@@ -1,0 +1,10 @@
+st = input("Enter the string : ")
+print(st)
+l = len(st)
+print(l)
+if st[-3:]=="ing":
+    st += 'ly'
+else:
+    st += 'ing'
+print(st)
+        
