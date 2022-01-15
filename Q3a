@@ -1,0 +1,10 @@
+l1=[]
+a = int(input("Enter size of l1 : "))
+print("Enter list1 elements : ")
+for i in range(a):
+    n1 = int(input("value  :"))
+    l1.append(n1)
+print("Postive Numbers are : ")
+for e in l1:
+    if e>0 :
+        print(e)
