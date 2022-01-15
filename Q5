@@ -1,0 +1,8 @@
+p=[]
+while True:
+    x = int(input("Enter the number :"))
+    if x<100:
+        p.append(x)
+    else:
+        print("over")
+    print("values = ",p)
