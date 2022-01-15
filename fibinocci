@@ -1,0 +1,13 @@
+n=0
+m=1
+s=0
+num = int(input("Enter the number upto which to find fibinocci : "))
+print(n)
+while s<num:
+    s = m+n
+    if(s<num):
+      print(s)
+    m=n
+    n=s
+    s=s+1
+   
