@@ -1,0 +1,20 @@
+l1=[]
+l2=[]
+a = int(input("Enter size of l1 : "))
+b = int(input("Enter size of l2 : "))
+print("Enter list1 elements : ")
+for i in range(a):
+    n1 = int(input("value  :"))
+    l1.append(n1)
+print("Enter list2 elements : ")
+for i in range(b):
+    n2 = int(input("value  :"))
+    l2.append(n2)
+if len(l1)==len(l2):
+    print("List length are equal")
+else:
+    print("not equal")
+l1.sort()
+l2.sort()
+same_values = set(l1) & set(l2)
+print (same_values)
